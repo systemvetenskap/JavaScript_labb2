@@ -20,7 +20,7 @@ Hit CTRL-C to stop the server
 Open 'http://127.0.0.1:8081 in Google Chrome, and you should see the exersice instructions. 
 Open Chrome Devtools, and switch to the console tab. You should see 'js loaded!' printed to the console. You're then good to go. 
 
-If you have problems with http-server starting, try installing it as a global npm package: `npm install -g http-server`
+If you have problems with http-server starting, try installing it as a global npm package: `npm install -g http-server`. Then, with your terminal path in the src folder within this repo, type http-server. 
 
 ## Exersice Instructions
 The exersice instructions are included directly in the index.html & app.js files.
@@ -41,8 +41,3 @@ git remote add https://github.com/yourUsername/repoNameYouChose.git
 git push -u origin main
 ```
 Refresh the page with the repo you created, and you should see your code pushed. 
-
-
-
-
-
