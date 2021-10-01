@@ -29,9 +29,8 @@ Please keep in mind, that you will need to refresh your browser, after you've ma
 
 
 ## Submitting your lab assignment
-You submit your assignment by pushing your work to your own, public, github repo (or, private, which you share with Lars/Erik). In the top right corner of github, click the + then new repository. Or, visit (https://github.com/new)[https://github.com/new]. Choose a name for your repo, select public, do not check boxes to add things. Click create repository. Then copy the link to your new repository. It should look something like https://github.com/yourUsername/repoNameYouChose.git .
+This assignment is for your eyes only. You don't have to share your solutions. However, for your own sake. Save and push the code to GitHub.
 
-Then in the command line, where your project is, issue the following commands:
 
 ```
 git add .
