@@ -1,42 +1,23 @@
-## Getting started
-In this exersice you are going to modify the DOM using JavaScript. This repo contains an index.html file, and an app.js file. Please note that node.js and git are pre-requisits for following the below instructions.  
+## Innehåll
+Här ska du träna på att förändra DOM med hjälp av JavaScript. Du ska använda dig av samma repo som i första labbuppgiften. Därför måste du själv kopiera filerna. Men det kommer du göra enkelt
 
-1. Clone this repo
-2. Change into the directory you just cloned, so that your terminal is in the same directory as the package.json file
-3. Install dependencies by typing `npm install` 
+## Kör Live Preview
+För att köra och testa din kod. Använd Live Preview i VS Code. 
 
-Your webbrowser is not allowed to access the file system, for security reasons. Therefore loading the JS module won't work without a web server. Fear not! One is included in the package.json as a development dependency.
+## Lägg till ny katalog i samma Workspace
+Skapa en ny mapp/katalog i ditt workspace i VS Code. Den kan förslagsvis heta JS-labb2
 
-4. In the directory where the package.json is located, type `npm run dev`. Your local development server should start and give ouput similar to below:
+I den här katalogen kan du skapa två andra kataloger: js och css.
 
-```
-Starting up http-server, serving src
-Available on:
-  http://127.0.0.1:8081
-  http://192.168.1.180:8081
-Hit CTRL-C to stop the server
-```
+## Kopiera filer från Github
+Kopiera innehållet i [style.css](https://raw.githubusercontent.com/systemvetenskap/JavaScript_labb2/main/src/css/style.css). Skapa en ny fil i katalogen css som ska heta style.css. Klistra in innehållet där.
 
-Open 'http://127.0.0.1:8081 in Google Chrome, and you should see the exersice instructions. 
-Open Chrome Devtools, and switch to the console tab. You should see 'js loaded!' printed to the console. You're then good to go. 
+Kopiera [app.js](https://raw.githubusercontent.com/systemvetenskap/JavaScript_labb2/main/src/js/app.js). Skapa sedan en ny fil i katalogen js som heter app.js och klistra in innehållet där.
 
-If you have problems with http-server starting, try installing it as a global npm package: `npm install -g http-server`. Then, with your terminal path in the src folder within this repo, type http-server. 
+Slutligen
+Kopiera innehållet i [index.html](https://raw.githubusercontent.com/systemvetenskap/JavaScript_labb2/main/src/index.html) och klistra in detta i en ny fil som ska heta index.html. Lägg den i roten på din mapp "Js-labb2".
 
-## Exersice Instructions
-The exersice instructions are included directly in the index.html & app.js files.
-
-Please keep in mind, that you will need to refresh your browser, after you've made JS changes, for these to take effect, as the JS script is only loaded once on page load.
+## Lämna in
+Push Commit till det repo du använde för labb 1 och lägg in en kommentar i Moodle om att du är färdig
 
 
-## Submitting your lab assignment
-This assignment is for your eyes only. You don't have to share your solutions. However, for your own sake. Save and push the code to GitHub.
-
-
-```
-git add .
-git commit -m 'index html file changes on load as instructed!'
-git remote remove origin
-git remote add https://github.com/yourUsername/repoNameYouChose.git 
-git push -u origin main
-```
-Refresh the page with the repo you created, and you should see your code pushed. 
