@@ -21,18 +21,8 @@ const news = [
 
 /** 
  * 
- * This is where you add code that will manipulate index.html!
+ * Här ska du skriva din javascript för att ändra innehållet på webbsidan. 
  * 
- * When you open index.html in your browser, this javascript file will be run once. This javascript file is loaded via the script tag in index.html.
- * 
- * Most of what you need is in the lecture slides! For the stuff that isn't, there are very strong hints in the lecture slides at least. 
- * 
- * You can also figure most things out with the MDN docs. 
- * 
- * Or, by using chrome devtools and debugger statements. 
- * 
- * 
- * Good luck :) 
  */
 
  console.log('js loaded!')
